@@ -39,6 +39,9 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
+# Arquivos do upload
+uploads/*
+
 # Optional npm cache directory
 .npm
 
