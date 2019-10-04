@@ -12,7 +12,7 @@ const SpotSchema = new mongoose.Schema({
 }, {
     toJSON: {
         virtuals: true,
-    }
+    },
 });
 
 SpotSchema.virtual('thumbnail_url').get(function() {
